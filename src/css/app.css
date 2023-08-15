@@ -9,15 +9,15 @@
     background-position: center;
 }
 
-.icon-custom.lindaidai-task {
+.icon-custom.demo-task {
     position: relative;
     /* background-image: url('https://hexo-blog-1256114407.cos.ap-shenzhen-fsi.myqcloud.com/rules.png'); */
     background-image: url('../assets/rules.png');
 }
 
-.icon-custom.lindaidai-task::after {
+.icon-custom.demo-task::after {
     font-size: 12px;
-    content: 'LinDaiDai';
+    content: 'demo';
     position: absolute;
     top: 17px;
     left: 0;
@@ -51,7 +51,7 @@
 
 /* 自定义 contextPad 的样式 */
 
-.djs-context-pad .lindaidai-task.entry:hover {
+.djs-context-pad .demo-task.entry:hover {
     background: url('https://hexo-blog-1256114407.cos.ap-shenzhen-fsi.myqcloud.com/rules.png') center no-repeat !important;
     background-size: cover !important;
 }

@@ -69,10 +69,10 @@ PaletteProvider.prototype.getPaletteEntries = function(element) {
                 click: createStratEvent()
             }
         },
-        'create.lindaidai-task': {
+        'create.demo-task': {
             group: 'model',
-            className: 'icon-custom lindaidai-task',
-            title: '创建一个类型为lindaidai-task的任务节点',
+            className: 'icon-custom demo-task',
+            title: '创建一个类型为demo-task的任务节点',
             action: {
                 dragstart: createTask(),
                 click: createTask()

@@ -30,11 +30,11 @@ export default class CustomPalette {
         }
 
         return {
-            'create.lindaidai-task': {
+            'create.demo-task': {
                 group: 'model',
-                className: 'icon-custom lindaidai-task',
+                className: 'icon-custom demo-task',
                 // className: 'bpmn-icon-user-task',
-                title: translate('创建一个类型为lindaidai-task的任务节点'),
+                title: translate('创建一个类型为demo-task的任务节点'),
                 action: {
                     dragstart: createTask(),
                     click: createTask()

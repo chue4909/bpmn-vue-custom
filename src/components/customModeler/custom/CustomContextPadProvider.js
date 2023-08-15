@@ -85,10 +85,10 @@ ContextPadProvider.prototype.getContextPadEntries = function(element) {
     }
 
     return {
-        'append.lindaidai-task': {
+        'append.demo-task': {
             group: 'model',
-            className: 'icon-custom lindaidai-task',
-            title: translate('创建一个类型为lindaidai-task的任务节点'),
+            className: 'icon-custom demo-task',
+            title: translate('创建一个类型为demo-task的任务节点'),
             action: {
                 click: appendTask,
                 dragstart: appendTaskStart
